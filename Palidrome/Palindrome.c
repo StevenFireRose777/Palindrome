@@ -56,7 +56,7 @@ int main(void){
     int len;
 
     printf("Give me a word: ");
-    scanf("%s", user_word);
+    scanf("%100s", user_word);
 
     len = strlen(user_word);
 
